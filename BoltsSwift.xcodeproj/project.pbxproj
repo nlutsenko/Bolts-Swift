@@ -37,6 +37,10 @@
 		81D3007E1C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300771C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift */; };
 		81D3007F1C93AF9F00E1A1ED /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300781C93AF9F00E1A1ED /* TaskTests.swift */; };
 		81D300801C93AF9F00E1A1ED /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300781C93AF9F00E1A1ED /* TaskTests.swift */; };
+		81EB4D4C231281BA00AD4912 /* Task+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB4D4B231281BA00AD4912 /* Task+Void.swift */; };
+		81EB4D4D231281BA00AD4912 /* Task+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB4D4B231281BA00AD4912 /* Task+Void.swift */; };
+		81EB4D4E231281BA00AD4912 /* Task+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB4D4B231281BA00AD4912 /* Task+Void.swift */; };
+		81EB4D4F231281BA00AD4912 /* Task+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB4D4B231281BA00AD4912 /* Task+Void.swift */; };
 		87FEF3721A9085FA00C60678 /* BoltsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FEF3661A9085FA00C60678 /* BoltsSwift.framework */; };
 		F569C0C11CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569C0C01CFF6A07000749B6 /* Task+ContinueWith.swift */; };
 		F569C0C21CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569C0C01CFF6A07000749B6 /* Task+ContinueWith.swift */; };
@@ -116,6 +120,7 @@
 		81D300761C93AF9F00E1A1ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D300771C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCompletionSourceTests.swift; sourceTree = "<group>"; };
 		81D300781C93AF9F00E1A1ED /* TaskTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
+		81EB4D4B231281BA00AD4912 /* Task+Void.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Void.swift"; sourceTree = "<group>"; };
 		87FEF3661A9085FA00C60678 /* BoltsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoltsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FEF3711A9085FA00C60678 /* BoltsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoltsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F569C0C01CFF6A07000749B6 /* Task+ContinueWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+ContinueWith.swift"; sourceTree = "<group>"; };
@@ -252,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				81D300651C93AF7300E1A1ED /* Task.swift */,
+				81EB4D4B231281BA00AD4912 /* Task+Void.swift */,
 				81D300661C93AF7300E1A1ED /* TaskCompletionSource.swift */,
 				F569C0C01CFF6A07000749B6 /* Task+ContinueWith.swift */,
 				F569C0CB1CFF6AEE000749B6 /* Task+Delay.swift */,
@@ -512,6 +518,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 87FEF35C1A9085FA00C60678;
@@ -589,6 +596,7 @@
 			files = (
 				065894F21C9A9391000FDDA6 /* Errors.swift in Sources */,
 				F569C0DA1CFF6B18000749B6 /* Task+WhenAll.swift in Sources */,
+				81EB4D4F231281BA00AD4912 /* Task+Void.swift in Sources */,
 				065894EF1C9A9391000FDDA6 /* Task.swift in Sources */,
 				F569C0CF1CFF6AEE000749B6 /* Task+Delay.swift in Sources */,
 				F569C0C41CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */,
@@ -604,6 +612,7 @@
 			files = (
 				065894F51C9A93B7000FDDA6 /* Executor.swift in Sources */,
 				F569C0D91CFF6B18000749B6 /* Task+WhenAll.swift in Sources */,
+				81EB4D4E231281BA00AD4912 /* Task+Void.swift in Sources */,
 				065894F61C9A93B7000FDDA6 /* Task.swift in Sources */,
 				F569C0CE1CFF6AEE000749B6 /* Task+Delay.swift in Sources */,
 				F569C0C31CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */,
@@ -630,6 +639,7 @@
 			files = (
 				81D3006B1C93AF7300E1A1ED /* Executor.swift in Sources */,
 				F569C0D81CFF6B18000749B6 /* Task+WhenAll.swift in Sources */,
+				81EB4D4D231281BA00AD4912 /* Task+Void.swift in Sources */,
 				81D3006D1C93AF7300E1A1ED /* Task.swift in Sources */,
 				F569C0CD1CFF6AEE000749B6 /* Task+Delay.swift in Sources */,
 				F569C0C21CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */,
@@ -656,6 +666,7 @@
 			files = (
 				81D3006A1C93AF7300E1A1ED /* Executor.swift in Sources */,
 				F569C0D71CFF6B18000749B6 /* Task+WhenAll.swift in Sources */,
+				81EB4D4C231281BA00AD4912 /* Task+Void.swift in Sources */,
 				81D3006C1C93AF7300E1A1ED /* Task.swift in Sources */,
 				F569C0CC1CFF6AEE000749B6 /* Task+Delay.swift in Sources */,
 				F569C0C11CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */,
